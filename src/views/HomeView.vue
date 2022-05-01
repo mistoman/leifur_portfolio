@@ -37,10 +37,10 @@
     <div class="portfolio-cards container p-5 ">
       <div class="row g-2">
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="portfolio-card card">
-            <div style="background-image:url('/assets/trap.PNG');" class="card-image-container">
-            </div>
+            <img src="/assets/trap.jpg" class="card-image-top"/>
+            
             <div class="card-body">
               <h5 class="card-title">Trapholt</h5>
               <p class="card-text">
@@ -53,10 +53,10 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="portfolio-card card">
-            <div style="background-image:url('/assets/security.PNG');" class="card-image-container">
-            </div>
+            <img src="/assets/security.jpg" class="card-image-top">
+            
             <div class="card-body">
               <h5 class="card-title">Telesikring</h5>
               <p class="card-text">
@@ -69,11 +69,11 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="portfolio-card card">
 
-            <div style="background-image:url('/assets/billiard.PNG');" class="card-image-container">
-            </div>
+            <img src="/assets/billiard.jpg" class="card-image-top"/>
+            
             <div class="card-body">
               <h5 class="card-title">Billiard</h5>
               <p class="card-text">
@@ -86,12 +86,12 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="portfolio-card card">
 
-            <div style="background-image:url('/assets/chicken.PNG');" class="card-image-container">
+            <img src="/assets/Chicken.jpg" class="card-image-top"/>
 
-            </div>
+            
 
 
             <div class="card-body">
@@ -102,15 +102,16 @@
               </p>
 
 
-              <a href="/assets/chicken.PNG" target="_blank">IMAGE</a>
+              <a href="/assets/Chicken.jpg" target="_blank">IMAGE</a>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="portfolio-card card">
-            <div style="background-image:url('/assets/Gamebattle.PNG');" class="card-image-container">
-            </div>
+            <img src="/assets/Gamebattle.jpg" class="card-image-top"/>
+
+            
 
 
             <div class="card-body">
@@ -196,15 +197,12 @@
     color: white;
   }
 
-  .card-image-container {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .card-image-top {
+    width: 100%;
+    height: auto;
+    display: block;
 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+
   }
 
   .card a {
